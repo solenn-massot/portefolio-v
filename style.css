@@ -21,6 +21,7 @@
     medium purple : #604f85
     light purple : #836fac*/
 /*-----------GENERAL----------*/
+@media screen and (min-width: 768px){
 html{
     scroll-behavior: smooth;
 }
@@ -330,6 +331,7 @@ body{
 .link-text:hover{
     text-decoration: underline;
     color: #3e315c;
+}
 }
 @media screen and (max-width: 768px) {
     .link-nav{
