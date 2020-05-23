@@ -30,23 +30,19 @@ body{
     width: 99vw;
 }
 /*-------NAV---------*/
-#menu-sticky{
-    background-color: #836fac;
-    z-index:1;
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    align-items: center;
-}
-#menu-nonsticky{
+
+.menu-nonsticky{
     background-color: #836fac;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100%;
+    width: 100vw;
     align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    z-index: 2;
+
 }
 .link-nav{
     font-family: 'gtitre';
@@ -98,7 +94,7 @@ body{
 }
 /*-----------ANCRES---------*/
 .ancre{
-    height: 20%;
+    height: 100%;
     visibility: hidden;
     margin:0;
 }
@@ -112,6 +108,7 @@ body{
     margin-left: 4%;
     margin-top: 15%;
     margin-bottom: 7%;
+    padding-bottom: 3%;
 }
 .text{
     font-family: 'texte';
@@ -140,12 +137,14 @@ body{
     text-align: center;
     font-family: 'texte';
     font-size: 120%;
+    padding-bottom : 3%;
 }
 #div-formation{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-#titre-formation{
+.titre-formation{
     font-family: 'gtitre';
     font-size: 200%;
     color:#3e315c;
@@ -302,6 +301,7 @@ body{
     text-align: center;
     font-family: 'texte';
     font-size: 200%;
+    flex-wrap: wrap;
 }
 .img-projet{
     width: 50%;
