@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'gtitre';
+    src: url('font/atwriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ptitre';
+    src: url('font/Square.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'space';
+    src: url('font/SUBSCRIBER-Regular.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0 ;
+    padding: 0;
+    height: 100vh;
+    background-color: #505050 ;
+}
+#title-index{
+    font-size: 5em;
+    text-align: center;
+    font-family: 'gtitre';
+    min-width: 100%;
+    width: max-content;
+    height:10%;
+    padding-bottom:0;
+    margin :2%;
+}
+#choice{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 100%;
+}
+#moon{
+    min-height: 150%;
+    margin-top: -20%;
+    min-width : 50%;
+}
+#moon-choice{
+    font-family: 'ptitre';
+    letter-spacing: 0.1em;
+    font-size : 3em;
+    text-align: center;
+    padding-top: 40%;
+}
+#space-choice{
+    font-family: 'space';
+    letter-spacing: 0.1em;
+    font-size : 4em;
+    text-align: center;
+    padding-top: 37%;
+}
+#space{
+    min-height: 150%;
+    margin-top: -20%;
+    min-width : 50%;
+}
+#space:hover{
+    background-image: url("images/space/background-rockat.svg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%; 
+}
+#moon:hover{
+    background-image: url("images/moon/2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%; 
+}
+a{
+    text-decoration : none;
+    vertical-align: middle;
+    color: white;
+}
