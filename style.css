@@ -21,7 +21,7 @@
     medium purple : #604f85
     light purple : #836fac*/
 /*-----------GENERAL----------*/
-@media screen and (min-width: 768px){
+@media screen{
 html{
     scroll-behavior: smooth;
 }
@@ -338,12 +338,17 @@ body{
         font-size: 0.5em;
     }
     .text{
-        font-size: 0.5em;
+        font-size: 1em;
     }
     #div-formation{
         flex-direction: column;
+        align-items: center;
+justify-content: center;
     }
     #competence .titre-formation{
         font-size: 1em;
+    }
+    #my{
+        width:60%;
     }
   }
