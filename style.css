@@ -27,7 +27,7 @@ html{
 body{
     margin: 0 ;
     background-color: rgb(36, 36, 36);
-    width: 100%;
+    width: 99vw;
 }
 /*-------NAV---------*/
 #menu-sticky{
