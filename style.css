@@ -48,7 +48,7 @@ body{
     font-family: 'gtitre';
     text-decoration: none;
     color:black;
-    font-size: 150%;
+    font-size: 1.5em;
     font-weight: bolder;
     letter-spacing: 0.1em;
 }   
@@ -112,7 +112,7 @@ body{
 }
 .text{
     font-family: 'texte';
-    font-size: 200%;
+    font-size: 2em;
     text-align: left;
 }
 .section{
@@ -331,3 +331,17 @@ body{
     text-decoration: underline;
     color: #3e315c;
 }
+@media screen and (max-width: 768px) {
+    .link-nav{
+        font-size: 0.5em;
+    }
+    .text{
+        font-size: 0.5em;
+    }
+    #div-formation{
+        flex-direction: column;
+    }
+    #competence .titre-formation{
+        font-size: 1em;
+    }
+  }
